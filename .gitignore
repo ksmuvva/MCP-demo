@@ -1,5 +1,7 @@
 # Python bytecode
 __pycache__/
+*/__pycache__/
+*/*/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -11,6 +13,10 @@ __pycache__/
 # Virtual environment
 .venv/
 venv/
+
+# Editor files
+.vscode/
+.idea/
 
 # Keep all source code files
 !*.py
