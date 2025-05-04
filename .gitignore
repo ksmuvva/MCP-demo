@@ -1,6 +1,18 @@
+# Python bytecode
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Environment and logs
 .env
 *.log
 .DS_Store
+
+# Virtual environment
+.venv/
+venv/
+
+# Keep all source code files
+!*.py
+!*.md
+!requirements.txt
